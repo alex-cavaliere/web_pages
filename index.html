@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Alessandro Cavaliere</title>
+    <!--questa pagina é un test per il mio sito. Lo scopo é creare un interfaccia
+    che sia moderno e che contenga canzoni e altro-->
+</head>
+<body>
+    <header class="flexbox_row">
+        <h1>Alessandro Cavaliere</h1>
+        <h2>Music Production</h2>
+        <nav>
+            <ul class="flexbox_row">
+                <li><a href="#footer">contatti</a></li>
+                <li onclick="tenda()"><a href="#">musica</a>
+                    <ul id="tenda">
+                        <li><a href="#">Rock</a></li>
+                        <li><a href="#">Funky</a></li>
+                        <li><a href="#">Blues</a></li>
+                        <li><a href="#">Pop</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">supporto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main" class="flexbox_row">
+        <section id="produzioni" class="flexbox">
+            <h2>Produzioni</h2>
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="perfect_1.wav" type="audio/wav">
+                    <source src="perfect_1.mp3" type="audio/mpeg">
+                    <source src="perfect_1.ogg" type="audio/ogg">
+                </audio>
+                <p>cover di Ed Sheeran - Perfect</p>
+            </div>
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="produzioni/jeremy def.wav" type="audio/wav">
+                    <source src="produzioni/jeremy def.mp3" type="audio/mpeg">
+                    <source src="produzioni/jeremy def.ogg" type="audio/ogg">
+                </audio>
+                <p>cover di Pearl Jam - Alessandro Cavaliere</p>
+            </div>
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="produzioni/Il Canto Delle Cicale.wav" type="audio/wav">
+                    <source src="produzioni/Il Canto Delle Cicale.mp3" type="audio/mpeg">
+                    <source src="produzioni/Il Canto Delle Cicale.ogg" type="audio/ogg">
+                </audio>
+                <p>Il Canto Delle Cicale - Alessandro Cavaliere</p>
+            </div> <!-- fare altre copie di questo tipo di div -->
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="produzioni/Eddy.wav" type="audio/wav">
+                    <source src="produzioni/Eddy.mp3" type="audio/mpeg">
+                    <source src="produzioni/Eddy.ogg" type="audio/ogg">
+                </audio>
+                <p>Eddy - Alessandro Cavaliere</p>
+            </div>
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="produzioni/fort boyar film.wav" type="audio/wav">
+                    <source src="produzioni/fort boyar prima.mp3" type="audio/mpeg">
+                    <source src="produzioni/fort boyar prima.ogg" type="audio/ogg">
+                </audio>
+                <p>Rock Boyar - Alessandro Cavaliere</p>
+            </div>
+            <div class="song flexbox">
+                <audio controls>
+                    <source src="produzioni/slappy - Film .wav" type="audio/wav">
+                    <source src="produzioni/slappy - Film .mp3" type="audio/mpeg">
+                    <source src="produzioni/slappy - Film .ogg" type="audio/ogg">
+                </audio>
+                <p>Slappy - Alessandro Cavaliere</p>
+            </div>
+        </section>
+        <section id="articoli" class="flexbox">
+            <div id="articolo_1">
+                <h2>Articolo 1</h2>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                    Dolores laudantium fugit minus eaque porro provident sequi<br> 
+                    a possimus necessitatibus ipsam omnis nesciunt iste asperiores<br> 
+                    similique ipsa, quod velit ullam cumque.
+                </article>
+            </div>
+            <div id="articolo_2">
+                <h2>Articolo 2</h2>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                    Dolores laudantium fugit minus eaque porro provident sequi<br> 
+                    a possimus necessitatibus ipsam omnis nesciunt iste asperiores<br> 
+                    similique ipsa, quod velit ullam cumque.
+                </article>
+            </div>
+            <div id="articolo_3">
+                <h2>Articolo 3</h2>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+                    Dolores laudantium fugit minus eaque porro provident sequi<br> 
+                    a possimus necessitatibus ipsam omnis nesciunt iste asperiores<br> 
+                    similique ipsa, quod velit ullam cumque.
+                </article>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <h3>Contacts</h3>
+        <ul class="flexbox_row">
+            <li>
+                <h4>e-mail</h4>
+                <a href="mailto:alexcavaliere517@gmail.com">alexcavaliere517@gmail.com</a>
+            </li>
+            <li>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/alessandro-cavaliere-337882211/" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+                <h4>GitHub</h4>
+                <a href="https://github.com/alex-cavaliere/AlessandroCavaliere_2_21052021">GitHub</a>
+            </li>
+        </ul>
+        <h3></h3>
+    </footer>
+    <script src="test_2.js"></script>
+</body>
+</html>
