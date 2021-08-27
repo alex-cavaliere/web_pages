@@ -38,24 +38,31 @@ header
             font-size: 20px;
             width: 350px;
             justify-content: space-between;
+            & li
+            {
+                padding-top: 6px;
+                width: 120px;
+            }
             & li:hover
             {
                 background-color: $header_color;
-                height: 50px;
+                border-radius: 10px;    
+                height: 40px;
             }
         }
         & #tenda
         {
             visibility: hidden;
             position: relative;
+            border-radius: 10px;
             padding-top: 30px;
-            padding-right: 70px;
-            width: 30px;
+            width: 66%;
             background-color: $header_color;
             & li
             {
-                padding: 10px;
-                
+                width: 70px;
+                height: 30px;
+                text-align: center;
             }
         }
     }

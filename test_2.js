@@ -1,4 +1,4 @@
-var active = false;
+let active = false;
 
 function tenda() {
     if(!active){

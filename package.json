@@ -9,12 +9,12 @@
   "author": "Alessandro Cavaliere",
   "license": "ISC",
   "bowserslist": "last 4 versions",
-
   "scripts": {
     "sass": "sass --watch ./main.scss:./main.css",
     "prefix": "postcss ./main.css --use autoprefixer -d ./prefixed "
   },
   "dependencies": {
     "autoprefixer": "^10.3.1"
-  }
+  },
+  "devDependencies": {}
 }
