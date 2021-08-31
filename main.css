@@ -2,21 +2,32 @@
   font-family: "Quicksand-Regular";
   src: url(./police/Quicksand-Regular.otf);
 }
+
 body {
   background-color: rgba(0, 0, 0, 0.8);
   color: #eeededd5;
   opacity: 0.8;
-  font-family: "Quicksand-Regular", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Quicksand-Regular", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .flexbox_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 header {
@@ -24,25 +35,32 @@ header {
   background-color: #eeededd5;
   color: black;
 }
+
 header nav {
   margin-left: 20%;
   margin-top: 50px;
   margin-right: 2%;
 }
+
 header nav ul {
   font-size: 20px;
   width: 350px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 header nav ul li {
   padding-top: 6px;
   width: 120px;
 }
+
 header nav ul li:hover {
   background-color: #eeededd5;
   border-radius: 10px;
   height: 40px;
 }
+
 header nav #tenda {
   visibility: hidden;
   position: relative;
@@ -51,11 +69,13 @@ header nav #tenda {
   width: 66%;
   background-color: #eeededd5;
 }
+
 header nav #tenda li {
   width: 70px;
   height: 30px;
   text-align: center;
 }
+
 header h2 {
   padding-left: 7px;
   padding-right: 7px;
@@ -67,6 +87,7 @@ header h2 {
   font-size: 20px;
   text-align: center;
 }
+
 header h1 {
   margin-left: 15px;
   width: 400px;
@@ -81,13 +102,17 @@ header h1 {
 #produzioni {
   width: 50%;
   margin-top: 4%;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   height: 450px;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 #produzioni p {
   width: 80%;
 }
+
 #produzioni h2 {
   position: absolute;
   top: 15%;
@@ -99,14 +124,17 @@ header h1 {
 }
 
 ul {
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center;
   margin-top: -20px;
   margin-right: 19%;
 }
+
 ul li {
   list-style-type: none;
 }
+
 ul li a {
   text-decoration: none;
   color: #000000;
@@ -117,9 +145,10 @@ footer {
   background-color: #eeededd5;
   color: #000000;
 }
+
 footer h3 {
   text-align: center;
   padding-top: 10px;
+  margin-right: 2%;
 }
-
 /*# sourceMappingURL=main.css.map */
