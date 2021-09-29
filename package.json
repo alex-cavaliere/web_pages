@@ -10,8 +10,8 @@
   "license": "ISC",
   "bowserslist": "last 4 versions",
   "scripts": {
-    "sass": "sass --watch ./main.scss:./main.css",
-    "prefix": "postcss ./main.css --use autoprefixer -d ./prefixed "
+    "sass": "sass --watch ./scss/main.scss:./css/main.css",
+    "prefix": "postcss ./scss/main.css --use autoprefixer -d ./prefixed "
   },
   "dependencies": {
     "autoprefixer": "^10.3.1",

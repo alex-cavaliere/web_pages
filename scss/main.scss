@@ -1,0 +1,42 @@
+@import "./variables_overrides.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body
+{
+    color: rgba(255, 255, 255, 0.74);
+    text-shadow: 1px 1px 2px black;
+    background-color: #303834;
+}
+
+audio
+{
+    border-radius: 20px;
+    height: 40px;
+}
+audio:hover
+{
+    transform: scale(1.05);
+    filter: drop-shadow(2px 3px 3px #333);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: rgba(245, 245, 245, 0.74);
+}
+img
+{
+    height: 600px;
+}
+li
+{
+    list-style-type: none;
+}
+iframe
+{
+    height: 800px;
+    width: 1200px;
+}
