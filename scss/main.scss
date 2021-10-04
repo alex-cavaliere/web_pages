@@ -40,3 +40,17 @@ iframe
     height: 800px;
     width: 1200px;
 }
+
+@media screen and (max-device-width: 780px)
+{
+    #video
+    {
+        display: none;
+    }
+    #carouselIndicators img
+    {
+        height: 250px;
+        object-fit: cover;
+        margin-top: 3.6em;
+    }
+}
