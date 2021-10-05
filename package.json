@@ -17,5 +17,14 @@
     "autoprefixer": "^10.3.1",
     "bootstrap": "^5.1.1",
     "sass": "^1.42.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-cavaliere/web_pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-cavaliere/web_pages/issues"
+  },
+  "homepage": "https://github.com/alex-cavaliere/web_pages#readme"
 }
